@@ -7,7 +7,6 @@ import OurServices from "../components/OurServices";
 const Home = () => {
     return (
         <div>
-            <Navbar />
             <Hero />
             <ChooseUs />
             <OurServices />
