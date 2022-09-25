@@ -43,7 +43,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/about"
               aria-label="Our product"
               title="Our product"
               class="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/services"
               aria-label="Product pricing"
               title="Product pricing"
               class="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -63,7 +63,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/contact"
               aria-label="About us"
               title="About us"
               class="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

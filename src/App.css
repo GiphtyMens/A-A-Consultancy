@@ -1,13 +1,27 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Kanit", sans-serif;
 }
 
-.App {
-  text-align: center;
+.light-bg {
+  background-color: rgb(243, 248, 246);
 }
 
-
-
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+.gmap_iframe {
+  height: 400px !important;
+}
