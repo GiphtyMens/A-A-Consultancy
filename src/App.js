@@ -1,18 +1,21 @@
 import React from "react"
 import './App.css';
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ChooseUs from "./components/ChooseUs";
-import OurServices from "./components/OurServices";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./app/Home";
+import Contact from "./app/Contact";
+import About from "./app/About";
+import Services from "./app/Services"
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <ChooseUs />
-      <OurServices />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
