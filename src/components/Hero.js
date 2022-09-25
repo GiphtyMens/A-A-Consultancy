@@ -17,7 +17,7 @@ const Hero = () => {
                  Innovative Business Solution
                </p>
              </div>
-             <h2 className="max-w-lg mb-6 font-sans text-4xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
+             <h2 className="max-w-lg mb-6 text-4xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
                <span className="relative inline-block">
                  <svg
                    viewBox="0 0 52 24"
