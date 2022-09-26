@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ChooseUs from "../components/ChooseUs";
 import OurServices from "../components/OurServices";
+import OurSpecialties from '../components/OurSpecialties';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Hero />
             <ChooseUs />
             <OurServices />
+            <OurSpecialties />
         </div>
     );
 }
