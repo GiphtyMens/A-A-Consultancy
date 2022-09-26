@@ -37,12 +37,12 @@ const ChooseUs = () => {
         </div>
         <div className="flex flex-col justify-start">
           <div className="max-w-xl mb-6">
-            <p className="text-sm tracking-tight text-start mb-4 text-gray-800 md:text-base">
+            <p className="text-xs tracking-tight text-start mb-4 text-gray-800 md:text-sm">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae. explicabo.
             </p>
-            <p className="text-sm tracking-tight text-start text-gray-800 md:text-base">
+            <p className="text-xs tracking-tight text-start text-gray-800 md:text-sm">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae. explicabo.
